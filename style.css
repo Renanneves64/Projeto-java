@@ -1,0 +1,92 @@
+/*.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;*/
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "roboto", sans-serif;
+        outline: none;
+    }
+    body {
+        background-color: #8a51fc;
+    }
+    main {
+        width: 375px;
+        background: white;
+        border-radius: 20px;
+        margin: 0px auto;
+        padding: 44px 24px 23px;
+            
+    }
+.logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    
+}
+label {
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+}
+select , input {
+    background: white;
+    border: 1px solid #bbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+}
+button {
+    background: red;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700; 
+    cursor: pointer;
+}
+button:hover{ opacity: 0.8;
+
+}
+button:active {
+    opacity: 0.6;
+}
+section {
+    border: 1px solid #772fd3 ;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caixa1{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-value {
+color: #555;
+font-weight: 700;
+font-size: 20px;
+}
+.currency {
+    color: #777777;
+    font-size: 14px;
+}
